@@ -1,0 +1,11 @@
+// CLEAN + REBUILD !!!
+// https://docs.microsoft.com/en-us/dotnet/core/run-time-config/garbage-collector
+{
+	"configProperties": {
+		"System.GC.Server": true,
+//		"System.GC.HeapCount": 2,
+		"System.GC.HeapHardLimit": 104857600 // 100 MB
+	}
+}
+
+// 100 MB / 16 MB = 6 heaps max
