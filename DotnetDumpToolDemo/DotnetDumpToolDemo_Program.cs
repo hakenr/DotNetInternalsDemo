@@ -42,7 +42,7 @@ public class MyClass
 
 // wsl
 // cd "/mnt/d/temp/_dumps/2020-08-17 - BT crashing Azure Redis client (Linux)"
-// dotnet-dump analyze dotnet-dump analyze dump.codebooks.fail
+// dotnet-dump analyze dump.codebooks.fail
 //		setsymbolserver -directory ./Codebooks.API
 
 // WINDOWS
