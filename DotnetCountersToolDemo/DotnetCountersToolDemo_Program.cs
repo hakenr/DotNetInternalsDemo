@@ -26,5 +26,5 @@ Console.ReadLine();
 // dotnet-counters ps
 // dotnet-counters list
 // dotnet-counters monitor -p <id> [counters]
-// dotnet - counters monitor - n iisexpress
+// dotnet-counters monitor -n iisexpress
 // https://github.com/dotnet/diagnostics/blob/main/documentation/design-docs/dotnet-tools.md#dotnet-counters
