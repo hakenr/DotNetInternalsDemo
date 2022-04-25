@@ -1,16 +1,12 @@
-﻿using BenchmarkDotNet.Attributes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
+using BenchmarkDotNet.Attributes;
 
 namespace PerformanceBenchmarks
 {
 	[ShortRunJob]
 	public class SkipLocalsInitBenchmark
-    {
+	{
 		[Params(64, 256, 1024)]
 		public int AllocationSize { get; set; }
 
