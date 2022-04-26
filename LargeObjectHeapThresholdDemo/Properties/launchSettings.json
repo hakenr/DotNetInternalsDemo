@@ -1,7 +1,10 @@
 {
   "profiles": {
     "LargeObjectHeapThresholdDemo": {
-      "commandName": "Project"
+      "commandName": "Project",
+		"environmentVariables": {
+			//"COMPlus_GCLOHThreshold": "1D4C0"
+		}
     }
   }
 }
