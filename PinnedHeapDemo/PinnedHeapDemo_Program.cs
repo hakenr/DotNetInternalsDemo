@@ -16,6 +16,6 @@ GC.Collect();
 Debugger.Break();
 
 // dumpheap -stat
+// dumpheap -mt
 // do
-// gcroot
 // eeheap -gc
